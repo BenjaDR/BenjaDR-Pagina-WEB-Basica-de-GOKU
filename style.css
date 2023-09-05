@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #0B81DD;
+}
+
+.Logo {
+   font-family: 'Oswald', sans-serif;
+   font-size: 20px;
+   text-decoration: none;
+   color: #000;
+   position: absolute;
+   left: 1.0rem;
+   top: 1.0rem;
+}
+
+.Menu__Icon {
+   position: fixed;
+   right: 1.2rem;
+   top: 1rem;
+   width: 30px;
+   height: 30px;
+   cursor: pointer;
+}
+
+.Menu__Icon__Close {
+   position: fixed;
+   display: none;
+   right: 0.7rem;
+   top: 0.6rem;
+   width: 45px;
+   height: 45px;
+}
+
+.Menu__Item {
+   position: fixed; 
+   display: none;
+   flex-direction: column;
+   align-items: start;
+   width: 320px;
+   height: 532px;
+   background-color: #1796E0;
+   padding-left: 50px;
+   padding-top: 60px;
+   top: 55px;
+}
+
+.Active {
+   display: flex;
+}
+
+.Menu__Icon__DS{
+   display: none;
+}
+
+.Menu__Icon__Close__RS {
+   display: flex;
+}
+
+.Menu__Links {
+   font-family: 'Oswald', sans-serif;
+   font-size: 20px;
+   text-decoration: none;
+   color: #000;
+   text-transform: uppercase;
+   height: 100vh;
+}
+
+.Goku-Section {
+   display: flex;
+   align-items: center;
+}
+
+.Goku {
+   position: relative;
+   display: flex;
+   top: 14.9rem;
+   left: 0.6rem;
+   width: 300px;
+   height: 350px;
+} 
+
+.GokuDisabled {
+   display: none;
+}
+
+p {
+   position: absolute;
+   font-family: 'Nunito', sans-serif;
+   font-size: 20px;
+   color: #000;
+   text-align: center;
+   top: 125px;
+   left: 10px;
+}
+
+.Verso {
+   position: absolute;
+   top: 90px;
+   left: 95px;
+   font-family: 'Nunito', sans-serif;
+   font-size: 25px;
+   color: #000;
+}
+
+button {
+   font-family: 'Oswald', sans-serif;
+   width: 80px;
+   height: 30px;
+   border: 1px solid #fff;
+   background-color: #000;
+   color: #fff;
+   position: absolute;
+   left: 8.0rem;
+   top: 12rem;
+   padding-left: 13px;
+   padding-top: 4px;
+   border-radius: 15px;
+   text-align: center;
+}
+
+.Goku-Section {
+   display: flex;
+}
+
+.Goku-Section-AC {
+   display: none;
+}
+
+.Parrafo {
+   display: flex;
+}
+
+.Parrafo-IM {
+   display: none;
+}
+
+.Verso {
+   display: flex;
+}
+
+.Verso-IM {
+   display: none;
+}
+
+.Boton {
+   display: flex;
+}
+
+.Boton-IM {
+   display: none;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
